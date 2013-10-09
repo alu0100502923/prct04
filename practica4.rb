@@ -38,7 +38,19 @@ d[i][j] = (c[i][j] + b[i][j])
 
  puts "\n\n"
  
+# "Multiplicacion de matrices: "
 
+  for i in (0...n) do
+    for j in (0...n) do
+      sum = 0;
+      for k in (0...n) do
+sum += (c[i][k] * b[k][j])
+      end
+      d[i][j] = sum
+    end	
+ end
+ 
+ puts d 
  
  
  
