@@ -1,6 +1,6 @@
 #!/usr/local/rvm/rubies/ruby-2.0.0-p247/bin/ruby
 
-   puts "probando git"
+   puts "probando git v2"
    
 data = File.open('matriz.dat').read
 puts data
