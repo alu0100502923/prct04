@@ -27,17 +27,17 @@ b = to_m(b)
 
 n = c.length
 
-  # "Suma de matrices: "
+# "Suma de matrices: "
 
   for i in (0...n) do
     for j in (0...n) do
 d[i][j] = (c[i][j] + b[i][j])
     end	
  end
- puts d 
- 
-  puts "\n\n"
+ puts d   
 
+ puts "\n\n"
+ 
 # "Multiplicacion de matrices: "
 
   for i in (0...n) do
@@ -51,4 +51,9 @@ sum += (c[i][k] * b[k][j])
  end
  
  puts d 
+ 
+ 
+ 
 
+ 
+ 
